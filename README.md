@@ -38,10 +38,10 @@ Endpoint: `POST https://api.apimart.ai/v1/images/generations` (OpenAI-compatible
 <!-- pricing:model:start -->
 | Output | List price | Effective price |
 | --- | --- | --- |
-| default | $0.0375 | $0.03 |
-| 4K | $0.05 | $0.04 |
+| default | 0.0125 | 0.01 |
+| prompt_extend | 0.025 | 0.02 |
 
-The token-billed official route bills per million tokens instead: `text_input` $1.60, `cached_text_input` free, `image_input` $1.60, `cached_image_input` free, `text_output` $9.60, `image_output` $96.00.
+
 <!-- pricing:model:end -->
 
 Prices are a snapshot; the [pricing page](https://go.apimart.ai/k-970340) and [`data/model.json`](data/model.json) are refreshed by CI, and a completed task reports the exact amount in its `cost` field.
@@ -102,6 +102,17 @@ Runnable versions: [`examples/`](examples). The task lifecycle is `pending → p
 **How do I get a key?**
 
 Use the [Get an API key](https://go.apimart.ai/k-4b5f60) link — $1 minimum top-up, no plan required.
+
+<!-- related-repos:auto -->
+## Related repositories
+
+- **Same model, this language** — the other half of this pair: [z-image-turbo-prompts-fr](https://github.com/azle5biyd9td956/z-image-turbo-prompts-fr)
+- **Same model, other languages** — 9 more language builds: 中文 [z-image-turbo-api-cn](https://github.com/azle5biyd9td956/z-image-turbo-api-cn) · Deutsch `z-image-turbo-api-de` · Español `z-image-turbo-api-es` · Relay/gateway `z-image-turbo-api-gateway` · Bahasa `z-image-turbo-api-id` · 日本語 [z-image-turbo-api-ja](https://github.com/t9hid1p6ue2a/z-image-turbo-api-ja) · 한국어 [z-image-turbo-api-ko](https://github.com/t9hid1p6ue2a/z-image-turbo-api-ko) · Português `z-image-turbo-api-pt` · Русский `z-image-turbo-api-ru`
+- **More models in this language** — [midjourney-api-fr](https://github.com/apimartt1q/midjourney-api-fr) · [gemini-2-5-flash-image-preview-api-fr](https://github.com/haftslut7ha/gemini-2-5-flash-image-preview-api-fr) · [nano-banana-api-fr](https://github.com/f84q06w110/nano-banana-api-fr) · [gemini-3-1-flash-image-preview-api-fr](https://github.com/ok71ckyc/gemini-3-1-flash-image-preview-api-fr) · [nano-banana-2-api-fr](https://github.com/ms0p12t/nano-banana-2-api-fr) · [gemini-3-pro-image-preview-api-fr](https://github.com/w-44vba/gemini-3-pro-image-preview-api-fr)
+- **Topic hubs** — every build of this model, all languages: [z-image-turbo](https://github.com/topics/z-image-turbo) · [z-image-turbo-api](https://github.com/topics/z-image-turbo-api)
+
+This repository is one build in a cross-linked set of API guides for the same model family; each language build links back to the others.
+<!-- /related-repos:auto -->
 
 ## Attributed links (how this repository is measured)
 
